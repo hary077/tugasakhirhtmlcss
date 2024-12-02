@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Main Content Area */
+main {
+    display: flex; /* Menggunakan flexbox untuk konten utama */
+    flex: 1; /* Membuat main mengambil sisa ruang yang tersedia */
+    padding: 20px;
+    gap: 20px; /* Jarak antar elemen dalam main */
+}
+
+/* Artikel */
+article {
+    flex: 3; /* Memberikan ruang lebih besar pada artikel */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Aside */
+aside {
+    flex: 1; /* Aside mengambil ruang lebih kecil */
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menambahkan styling untuk gambar */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
